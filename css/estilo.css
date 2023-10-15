@@ -176,3 +176,45 @@ body {
   width: 100%;
   height: 100%;
   display: flex; }
+
+.containerIn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: 10px;
+  border: 3px solid brown;
+  border-radius: 10px; }
+
+.InfoIn {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: justify;
+  font-size: 18px;
+  padding-left: 80px; }
+
+.TituloIn {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.Formulario {
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column; }
+
+.buttonIn {
+  max-width: 200px;
+  margin: 10px; }
+
+.labelIn {
+  border: 2px solid blue;
+  border-radius: 10px; }
+
+.TituloI {
+  display: flex;
+  justify-content: center; }
