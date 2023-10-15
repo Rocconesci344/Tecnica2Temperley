@@ -3,8 +3,17 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  font-family: "Rubik",sans-serif; }
+
 .bg-body-tertiary2 {
-  background-color: #3434f0; }
+  background-color: #2121ad; }
+
+.navbar-brand {
+  color: white; }
+
+.nav-link {
+  color: white; }
 
 .banner {
   max-width: 2000px;
@@ -16,7 +25,6 @@
   display: flex;
   justify-content: center;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 35px; }
 
@@ -37,7 +45,7 @@
 .Viaje {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 20px;
   justify-items: center; }
 
 .ImgAlumnosViaje {
@@ -46,3 +54,125 @@
   width: 100%;
   height: 100%;
   border: 2px solid #4747d8; }
+
+.DivIndex {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.InfoIndex1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center; }
+
+.Logo {
+  max-width: 420px;
+  max-height: 520px;
+  width: 100%;
+  height: 100%; }
+
+.TituloIndex {
+  font-size: 30px;
+  font-weight: bold; }
+
+.InfoOrientaciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1rem;
+  flex-direction: row;
+  margin-top: 20px;
+  margin: 10px; }
+
+.ImgEgresados {
+  max-width: 400px;
+  max-height: 300px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid blue; }
+
+.ParrafoIndex {
+  max-height: 250px;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  font-size: 21px;
+  text-align: justify; }
+
+.InfoInformatica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid brown;
+  border-radius: 10px; }
+
+.InfoProgramacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid brown;
+  border-radius: 10px; }
+
+.TituloOrientaciones {
+  font-size: 26px;
+  color: brown;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.ImgIndex {
+  display: flex;
+  justify-content: center; }
+
+.BtnInscripcion {
+  border: 2px solid brown;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold; }
+
+.footer {
+  background-color: #35356e;
+  margin-top: 15px; }
+
+.ImgFooter {
+  max-width: 50px;
+  max-height: 50px;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  margin: 10px; }
+
+.InfoFooter {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; }
+
+.TextosFooter {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px; }
+
+.TituloFooter {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: underline; }
+
+.Redesfooter {
+  display: flex;
+  justify-content: center; }
+
+.ImgTFooter {
+  max-width: 20px;
+  max-height: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex; }

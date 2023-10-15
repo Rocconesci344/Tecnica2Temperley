@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecnica 2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="icon" href="./img/favicon.ico">
 </head>
 <body>
     <header>
@@ -18,9 +20,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="./pages/CicloBasico.html">Ciclo basico</a>
+                        <a class="nav-link" href="./pages/CicloBasico.html">Ciclo Basico</a>
                         <a class="nav-link" href="./pages/CicloSuperior.html">Ciclo superior</a>
                         <a class="nav-link" href="./pages/Alumnos.html">Alumnos</a>
+                        <a class="nav-link" href="./pages/Inscripcion.html">Inscripcion</a>
                     </div>
                 </div>
             </div>
@@ -30,11 +33,64 @@
         <section>
             <img class="banner" src="./img/banner.png" alt="Banner">
         </section>
+        <section class="InfoIndex1">
+            <div class="DivIndex">
+                <p class="TituloIndex">Te proponemos que estudies para:</p>
+                <p class="">Secundaria Basica de 3 años y Secundaria Superior Técnica de 4 años </p>
+                <p class="">Con orientación en:</p>
+                <p class="">-Tecnico en informática Personal y Profesional</p>
+                <p class="">-Tecnico en Programación</p>
+                <p class="">Turnos mañana, tarde y vespertino</p>
+                <div>
+                    <a class="BtnInscripcion" data-aos="zoom-in" href="./pages/Inscripcion.html">Inscripcion</a>
+                </div>
+            </div>
+            <div class="ImgIndex">
+                <img class="Logo" src="./img/logo.png" alt="Logo">
+            </div>
+        </section>
+        <section class="InfoOrientaciones">
+            <div class="InfoInformatica">
+                <p class="TituloOrientaciones">Tecnicatura en informática profesional y personal:</p>
+                <p class="ParrafoIndex">El técnico en informática profesional y personal está capacitado para asistir al usuario de productos y servicios informáticos brindándole servicios de instalación, capacitación, sistematización, mantenimiento primario, resolución de problemas derivados de la operatoria, y apoyo a la contratación de productos o servicios informáticos, actuar de nexo entre el especialista o experto en el tema. Producto o servicio y el usuario final</p>
+                <img class="ImgEgresados" src="./img/InformaticaIndex.jpg" alt="Egresados de informatica">
+            </div>
+            <div class="InfoProgramacion">
+                <p class="TituloOrientaciones">Tecnicatura en Programación:</p>
+                <p class="ParrafoIndex">El técnico en Programación estará capacitado para realizar programas o componentes de sistemas de computación. Interpretar especificaciones de diseño, documentar los productos realizados, verificar los componentes programados, buscar causas de malfuncionamiento y corregir los programas o adaptarlos a cambios futuros.</p>
+                <img class="ImgEgresados" src="./img/InfoProgramacion.jpg" alt="Egresados de programacion">
+            </div>
+        </section>
     </main>
-    <footer>
-        
+    <footer class="footer">
+        <section>
+            <div>
+                <p class="TituloFooter">Datos de contacto</p>
+            </div>
+            <div class="InfoFooter">
+                <div class="InfoTFooter">
+                    <p class="TextosFooter">eestn2lz@gmail.com</p>
+                </div>
+                <div class="InfoTFooter">
+                    <a class="TextosFooter" href="https://maps.app.goo.gl/U2MiSpWK25moAUxw9" target="_blank">Lavalle N° 801, esq. Guido Spano - Temperley</a>
+                </div>
+                <div class="InfoTFooter">
+                    <p class="TextosFooter">Tel 42989474</p>
+                </div>
+            </div>
+            <div class="Redesfooter">
+                <a href="https://www.instagram.com/eestn2lz/" target="_blank"><img class="ImgFooter" src="./img/ig-logo.png" alt="Ig logo"></a>
+                <a href="https://www.facebook.com/EEST2Temperley" target="_blank"><img class="ImgFooter" src="./img/fbLogo.png" alt="FB logo"></a>
+            </div>
+        </section>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+				easing: 'ease-out-back',
+				duration: 2000
+			});
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
