@@ -275,3 +275,21 @@ body{
     border: 5px solid rgba(21, 147, 197, 0.158);
     padding: 15px;
 }
+.MateriasSu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.ContainerSu1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.TituloSu{
+    display: flex;
+    justify-content: center;
+}
