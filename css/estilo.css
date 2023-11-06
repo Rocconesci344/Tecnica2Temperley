@@ -288,3 +288,20 @@ body {
 .TituloSu {
   display: flex;
   justify-content: center; }
+
+.ParrafoH {
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  font-size: 21px;
+  padding: 20px; }
+
+.DivH {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.DivH2 {
+  border: 3px solid brown;
+  border-radius: 10px; }
