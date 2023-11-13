@@ -134,6 +134,9 @@ body {
   font-size: 25px;
   font-weight: bold; }
 
+.DivB {
+  margin: 10px; }
+
 .footer {
   background-color: #35356e;
   margin-top: 15px; }
